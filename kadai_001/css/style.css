@@ -1,0 +1,91 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+.heading {
+  text-align: center;
+}
+
+#name {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  font-size: 18px;
+}
+
+#main {
+  width: 100%;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav>h2 {
+  border: solid;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav>div {
+  display: flex;
+  justify-content: center;
+}
+
+nav>div>h2 {
+  margin: auto 10px;
+}
+
+#about-sec-img {
+  border-radius: 50%;
+}
+
+.img-center {
+  text-align: center;
+}
+
+#works-sec>div>img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  #about-sec {
+    display: flex;
+    justify-content: center;
+  }
+
+  #about-sec>div {
+    margin: 0 50px 0 50px;
+  }
+
+  #works-sec {
+    display: flex;
+    justify-content: center;
+  }
+
+  #works-sec>div {
+    margin: auto 10px;
+  }
+}
