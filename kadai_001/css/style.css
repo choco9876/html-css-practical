@@ -83,7 +83,6 @@ footer {
   #works-sec {
     display: flex;
     justify-content: center;
-    margin: auto 20px;
   }
 
   #works-sec>div {
