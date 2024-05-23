@@ -86,6 +86,8 @@ footer {
   }
 
   #works-sec>div {
+    width: 300px;
+    height: auto;
     margin: auto 10px;
   }
 }
